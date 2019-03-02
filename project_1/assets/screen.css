@@ -1,5 +1,49 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* styline-diable*/
+a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+/*styline-enable*/
+
+/*
+base font-size: 19px
+base line-height: 22px
+https://www.modularscale.com/?19&px&1.067
+*/
 
 
-html{
-  background: 666666;
 }
+html{
+  background: #f5f5dc;
+  line-height: 1.375em; /* 22/ 16  = 1.375*/
+}
+
+h1 {
+  font-size:1.618em;
+  line-height: 1.507814;
+}
+
+//forms
+
+input,label {
+  display: block;
+  align-items: flex-end;
+}
+
+form li {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+
+
+@media screen and (min-width: 820px){
+  #info{
+    display: grid;
+  }
