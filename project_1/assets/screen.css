@@ -39,8 +39,19 @@ input,label {
 form li {
   display: flex;
   flex-flow: row wrap;
+  align-items: center;
 }
 
+#flex{
+  display: flex;
+  align-items: flex-start;
+  background-color: yellow;
+  justify-content: flex-start;
+}
+li{
+  display: flex;
+  justify-content: flex-start;
+}
 
 
 @media screen and (min-width: 820px){
