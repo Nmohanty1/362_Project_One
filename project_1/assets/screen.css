@@ -20,43 +20,51 @@ https://www.modularscale.com/?19&px&1.067
 
 }
 html{
-  background: #f5f5dc;
   line-height: 1.375em; /* 22/ 16  = 1.375*/
   font-family: 'Didot',serif;
+  font-size: 1.215em; /* 20.73/16 = 1.215*/
+  color: #C60701;
 }
-
+body{
+  background:  #222;
+}
 h1 {
   font-size:1.618em;
   line-height: 1.507814;
+  color: #C60701;
+  text-align: center;
+
 }
 
 //forms
-
 input,label {
-  display: block;
   align-items: flex-end;
   justify-content: space-around;
 }
 
 form li {
   display: flex;
+  align-items: flex-end;
 justify-content: space-evenly;
+color: #C60701;
   /*align-items: center;*/
 }
 
 #flex{
   display: flex;
-  background-color: yellow;
+  background-color: #CFD99C;
   /*justify-content: space-evenly; */
   flex-direction:column;
 }
-#header{
+#about{
+  /* Color Scheme */
+  color: #E54843;
+  background-color: #CFD99C;
 }
 
 /* moving sign up button to bottom of flex*/
 
 input[type="submit"]{
-  display:
 }
 
 @media screen and (min-width: 820px){
@@ -65,5 +73,4 @@ input[type="submit"]{
   }
 
 @media screen and (max-width: 520px){
-
 }
