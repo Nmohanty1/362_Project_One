@@ -20,7 +20,6 @@ function whitespace(value){
 //Check Email
 function validate(value) {
   var email = whitespace(value);
-  return validate
 }
 
 function validateform(){

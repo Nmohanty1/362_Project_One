@@ -24,14 +24,15 @@ html{
   font-family: 'Didot',serif;
   font-size: 1.296em; /* 24/16 = 1.215*/
   color: #C60701;
+  border-radius: 30px;
 }
 body{
-  background:  #222;
+  background:  #909090;
 }
 h1 {
   font-size:1.575em; /*24/16 = 1.575 */
   line-height: 1.507814;
-  color: #C60701;
+  color: #222;
   text-align: center;
 
 }
@@ -46,20 +47,25 @@ form li {
   display: flex;
   align-items: flex-end;
 justify-content: space-evenly;
-color: #C60701;
+color: #222;
   /*align-items: center;*/
 }
 
 #flex{
   display: flex;
-  background-color: #CFD99C;
+  background-color: #E54843;
   /*justify-content: space-evenly; */
   flex-direction:column;
+  border-radius: 30px;
+  padding: 1.2em;
+  padding-bottom: 1.2em;
 }
 #about{
   /* Color Scheme */
-  color: #E54843;
-  background-color: #CFD99C;
+  color: #222;
+  background-color: #E54843;
+  border-radius: 30px;
+  padding:1.2em;
 }
 
 /* moving sign up button to bottom of flex*/
@@ -68,13 +74,4 @@ input[type="submit"]{
 }
 
 
-@media screen and (min-width: 820px){
-  #info{
-    display: grid;
-  }
-
-@media screen and (max-width: 520px){
-  html{
-    font-size:
-  }
 }
