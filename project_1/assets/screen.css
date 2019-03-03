@@ -22,6 +22,7 @@ https://www.modularscale.com/?19&px&1.067
 html{
   background: #f5f5dc;
   line-height: 1.375em; /* 22/ 16  = 1.375*/
+  font-family: 'Didot',serif;
 }
 
 h1 {
@@ -34,27 +35,35 @@ h1 {
 input,label {
   display: block;
   align-items: flex-end;
+  justify-content: space-around;
 }
 
 form li {
   display: flex;
-  flex-flow: row wrap;
-  align-items: center;
+justify-content: space-evenly;
+  /*align-items: center;*/
 }
 
 #flex{
   display: flex;
-  align-items: flex-start;
   background-color: yellow;
-  justify-content: flex-start;
+  /*justify-content: space-evenly; */
+  flex-direction:column;
 }
-li{
-  display: flex;
-  justify-content: flex-start;
+#header{
 }
 
+/* moving sign up button to bottom of flex*/
+
+input[type="submit"]{
+  display:
+}
 
 @media screen and (min-width: 820px){
   #info{
     display: grid;
   }
+
+@media screen and (max-width: 520px){
+
+}
