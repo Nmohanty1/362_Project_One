@@ -4,7 +4,25 @@
     return;
   }
 }
-//Validate Form name
+
+// Declare variables
+var signup = document.querySelector('#prizepicks-signup');
+var submit = document.querySelector('#submit')
+
+//insert all functions Here
+
+//Functions to erase all the extra whitespace for email
+function whitespace(value){
+  //removes whitespace
+  return value.replace(/\D/g,'');
+}
+
+//Check Email
+function validate(value) {
+  var email = whitespace(value);
+  return validate
+}
+
 function validateform(){
   var x = document.forms["prizepicks"][]
 }

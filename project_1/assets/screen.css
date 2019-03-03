@@ -13,23 +13,23 @@ time, mark, audio, video
 
 /*
 base font-size: 19px
-base line-height: 22px
-https://www.modularscale.com/?19&px&1.067
+base line-height: 24px
+https://www.modularscale.com/?24&px&1.067
 */
 
 
 }
 html{
-  line-height: 1.375em; /* 22/ 16  = 1.375*/
+  line-height: 1.375em; /* 24/ 16  = 1.383*/
   font-family: 'Didot',serif;
-  font-size: 1.215em; /* 20.73/16 = 1.215*/
+  font-size: 1.296em; /* 24/16 = 1.215*/
   color: #C60701;
 }
 body{
   background:  #222;
 }
 h1 {
-  font-size:1.618em;
+  font-size:1.575em; /*24/16 = 1.575 */
   line-height: 1.507814;
   color: #C60701;
   text-align: center;
@@ -67,10 +67,14 @@ color: #C60701;
 input[type="submit"]{
 }
 
+
 @media screen and (min-width: 820px){
   #info{
     display: grid;
   }
 
 @media screen and (max-width: 520px){
+  html{
+    font-size:
+  }
 }
