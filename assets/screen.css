@@ -37,25 +37,25 @@ h1 {
 
 }
 
-//forms
+/*forms*/
 input,label {
-  align-items: flex-end;
-  justify-content: space-around;
+  display: block;
+  box-sizing: border-box;
+  border-radius: 30px;
+  padding:1.2em;
 }
 
 form li {
-  display: flex;
-  align-items: flex-end;
-justify-content: space-evenly;
+display: block;
+box-sizing: border-box;
 color: #222;
+border-radius: 30px;
   /*align-items: center;*/
 }
 
 #flex{
-  display: flex;
   background-color: #E54843;
   /*justify-content: space-evenly; */
-  flex-direction:column;
   border-radius: 30px;
   padding: 1.2em;
   padding-bottom: 1.2em;
@@ -67,11 +67,20 @@ color: #222;
   border-radius: 30px;
   padding:1.2em;
 }
-
-/* moving sign up button to bottom of flex*/
-
-input[type="submit"]{
+#submit{
+  margin-top:50px;
 }
+
+/* Focus Elements change color when clicked on */
+input[type="email"]:focus{
+  background-color: lightgrey;
+  border-radius: 30px;
+}
+input[type="text"]:focus{
+  background-color: lightgrey;
+  border-radius: 30px;
+}
+
 
 
 }
