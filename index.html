@@ -8,25 +8,28 @@
  </head>
  <body class="g">
     <header id="header">
-      <h1>Prize Pick Em'</h1>
+      <h1>Sign up for Prize Pick em'</h1>
     </header>
    <main id="info">
      <p id="about">
        Welcome to Prize Picks where you test your skills and wager to place entries.
-        Prize pick's goal is to connect you with sports.</p>
+        Prize pick's goal is to connect you with sports.If you would like
+      more information on how to place entries and make your dreams come true
+      fill out the form below. </p>
+      <p> *indicates required field </p>
      <form id="prizepicks-signup"name="prizepicks" action="#null" method="get">
        <ol id="flex">
          <li id="name">
-           <label for="name">Full Name: </label>
-           <input type="text" name= "name" placeholder="Insert here"/>
+           <label for="name">Full Name: *</label>
+           <input type="text" name= "name" required/>
          </li>
          <li id="email">
-           <label for="email">E-Mail: </label>
-           <input type="email" name="email" placeholder="Insert Here"/>
+           <label for="email">E-Mail: *</label>
+           <input type="email" name="email" required/>
          </li>
          <li id="sport">
            <label for "sport">Sports Interested: </label>
-           <input type="text" name="sport" placeholder="Insert Sport">
+           <input type="text" name="sport">
          </li>
          <li>
            <input id="submit" type="submit" name="signup" value="Sign Up"/>
