@@ -16,21 +16,27 @@ base font-size: 19px
 base line-height: 24px
 https://www.modularscale.com/?24&px&1.067
 */
+
+
+}
 html{
   line-height: 1.375em; /* 24/ 16  = 1.383*/
   font-family: 'Didot',serif;
   font-size: 1.296em; /* 24/16 = 1.215*/
-  color: #C60701;
+  color: #f18973;
   border-radius: 30px;
 }
 body{
-  background:  #909090;
+  background:  #b2b2b2;
 }
 h1 {
   font-size:1.575em; /*24/16 = 1.575 */
-  line-height: 1.507814;
-  color: #222;
+  line-height: 1.507814em;
+  color: #bc5a45;
   text-align: center;
+  background-color: #f4e1d2;
+  border-radius: 1.579em; /*30/19=1.579*/
+  padding:1.2em;
 
 }
 
@@ -38,42 +44,53 @@ h1 {
 input,label {
   display: block;
   box-sizing: border-box;
-  border-radius: 30px;
+  border-radius: 1.579;
   padding:1.2em;
 }
 
 form li {
 display: block;
 box-sizing: border-box;
-color: #222;
+color: #bc5a45;
 border-radius: 30px;
   /*align-items: center;*/
 }
 
 #flex{
-  background-color: #E54843;
+  background-color: #f4e1d2;
   /*justify-content: space-evenly; */
-  border-radius: .25em;
+  border-radius: 1.579em;
   padding: 1.2em;
   padding-bottom: 1.2em;
 }
 #about{
   /* Color Scheme */
-  color: #222;
-  background-color: #E54843;
-  border-radius: .25em;
+  color: #bc5a45;
+  background-color: #f4e1d2;
+  border-radius: 1.579em; /*30/19=1.579*/
+  padding:1.2em;
+}
+p{
+  /* Color Scheme */
+  color: #bc5a45;
+  background-color: #f4e1d2;
+  border-radius: 1.579em; /*30/19=1.579*/
   padding:1.2em;
 }
 #submit{
-  margin-top:.5em;
+  margin-top:2.632em;
 }
 
 /* Focus Elements change color when clicked on */
 input[type="email"]:focus{
   background-color: lightgrey;
-  border-radius: 30px;
+  border-radius: 1.579em;
 }
 input[type="text"]:focus{
   background-color: lightgrey;
-  border-radius: 30px;
+  border-radius: 1.579em;
+}
+
+
+
 }

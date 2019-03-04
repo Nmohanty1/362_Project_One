@@ -1,13 +1,15 @@
-(function(){
-  if(!('querySelector' in document && 'addEventListener' in document)){
+//='use strict';
+/*(function(){
+  if(!('querySelector' in document && 'addEventListener' in document)) {
 
-    return;
+    //console.log('test')
+  return;
   }
-}
+ */
 
 // Declare variables
-var signup = document.querySelector('#prizepicks-signup');
-var submit = document.querySelector('#submit')
+var signup = document.querySelector('#prizepickssignup');
+
 
 //insert all functions Here
 
@@ -26,6 +28,13 @@ function validateform(){
   var x = document.forms["prizepicks"][]
 }
 
-document.addEventListener('DOMContentLoaded', function(){
-  console.log('DOM Content Loaded');
-})
+// Alert Function
+document.addEventListener('DOMContentLoaded',function()){
+function alerts(){
+  var submit = document.querySelector('submit');
+  var email = document.getElementById('email').value;
+  alert("Thank you, Someone will be in contact with you at :");
+}
+}
+
+}());
